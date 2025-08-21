@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Church</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f7f9fc;
+      color: #333;
+    }
+    header {
+      background: #4a6fa5;
+      color: white;
+      text-align: center;
+      padding: 30px 20px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    nav {
+      background: #35507a;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    section h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #4a6fa5;
+    }
+    .sermons, .events {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      width: 250px;
+      text-align: center;
+    }
+    footer {
+      background: #4a6fa5;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 15px;
+      background: #35507a;
+      color: white;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+    .btn:hover {
+      background: #2b4063;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Peace & Blessings Church</h1>
+    <p>Welcome to our Online Church Community 🕊️</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#sermons">Sermons</a>
+    <a href="#prayer">Prayer</a>
+    <a href="#events">Events</a>
+    <a href="#donate">Donate</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>
+      Our mission is to spread love, faith, and hope through online prayer and worship. 
+      Join our community from anywhere in the world and be part of the spiritual family.
+    </p>
+  </section>
+
+  <section id="sermons">
+    <h2>Live & Recorded Sermons</h2>
+    <div class="sermons">
+      <div class="card">
+        <h3>Sunday Service</h3>
+        <p>Watch our latest live stream.</p>
+        <a class="btn" href="https://youtube.com" target="_blank">Watch Now</a>
+      </div>
+      <div class="card">
+        <h3>Daily Prayer</h3>
+        <p>Listen to daily prayer recordings.</p>
+        <a class="btn" href="#">Listen</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="prayer">
+    <h2>Prayer Requests</h2>
+    <p>Send us your prayer request and our community will pray for you 🙏</p>
+    <form>
+      <textarea rows="4" cols="50" placeholder="Write your prayer request here..." required></textarea><br><br>
+      <button class="btn" type="submit">Submit</button>
+    </form>
+  </section>
+
+  <section id="events">
+    <h2>Upcoming Events</h2>
+    <div class="events">
+      <div class="card">
+        <h3>Bible Study</h3>
+        <p>Every Wednesday at 7 PM</p>
+      </div>
+      <div class="card">
+        <h3>Online Fellowship</h3>
+        <p>Every Friday at 8 PM</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="donate">
+    <h2>Support Us</h2>
+    <p>Your support helps us reach more people with the message of love and peace.</p>
+    <a class="btn" href="#">Donate Now</a>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: peacechurch@example.com</p>
+    <p>WhatsApp: +91-9876543210</p>
+  </section>
+
+  <footer>
+    <p>© 2025 Peace & Blessings Church | All Rights Reserved</p>
+  </footer>
+</body>
+</html>
